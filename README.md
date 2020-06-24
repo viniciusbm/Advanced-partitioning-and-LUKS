@@ -84,17 +84,12 @@ This was adapted from [an answer on AskUbuntu](https://askubuntu.com/questions/2
     Make sure to fill in the correct type and mount point for each encrypted
     partition and for the boot partition, and as in this example:
 
-+--------------------------------+------------------+-------------+
 | Device                         | Use as           | Mount point |
-+===============================:+:================:+:============+
+|-------------------------------:|:----------------:|:------------|
 | `/dev/mapper/VolName-RootPart` | Ext4 file system | `/`         |
-+--------------------------------+------------------+-------------+
 | `/dev/mapper/VolName-HomePart` | Ext4 file system | `/home`     |
-+--------------------------------+------------------+-------------+
 | `/dev/sdaY`                    | Ext4 file system | `/boot`     |
-+--------------------------------+------------------+-------------+
 | `/dev/mapper/VolName-SwapPart` | Swap area        | (none)      |
-+--------------------------------+------------------+-------------+
 
 
 10. After the installation, **do not reboot** and choose
